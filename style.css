@@ -1,0 +1,14 @@
+
+#images{
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.5s;
+}
+.window{
+    border:3px solid red;
+    width: 600px;
+    overflow: hidden;
+}
+#buttons > span.red{
+    color: red;
+}

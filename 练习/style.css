@@ -1,0 +1,17 @@
+#window{
+    border: 3px solid red;
+    width: 600px;
+    overflow: hidden;
+}
+#images{
+    display: flex;
+    align-items: flex-start;
+    transition:transform 0.5s;
+}
+#buttons>span{
+    font-size: 24px;
+    cursor: pointer;
+}
+#buttons>span.red{
+    color:red;
+}
